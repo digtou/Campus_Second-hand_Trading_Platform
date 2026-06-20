@@ -42,7 +42,7 @@
 - Node.js 24+
 - MySQL 8.0+
 - Maven 3.8.1+
-##项目结构
+## 项目结构
 - campus-idle-trading/
 - ├── backend/
 - │   ├── src/main/java/com/example/springboot/
