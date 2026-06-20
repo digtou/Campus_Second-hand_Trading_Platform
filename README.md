@@ -43,24 +43,24 @@
 - MySQL 8.0+
 - Maven 3.8.1+
 ##项目结构
-campus-idle-trading/
-├── backend/
-│   ├── src/main/java/com/example/springboot/
-│   │   ├── common/          # 通用类（Result、WebSocketServer）
-│   │   ├── config/          # 配置（跨域、拦截器、WebSocket）
-│   │   ├── controller/      # 控制器
-│   │   ├── entity/          # 实体类
-│   │   ├── mapper/          # 数据访问层
-│   │   ├── service/         # 服务层
-│   │   ├── utils/           # 工具类
-│   │   └── exception/       # 异常处理
-│   └── src/main/resources/application.yml
-├── frontend/
-│   ├── src/
-│   │   ├── views/           # 页面组件
-│   │   ├── router/          # 路由配置
-│   │   ├── store/           # Pinia 状态管理
-│   │   └── utils/axios.js   # HTTP 封装
-├── sql/                     # 数据库脚本
-├── files/                   # 上传文件目录
-└── README.md
+- campus-idle-trading/
+- ├── backend/
+- │   ├── src/main/java/com/example/springboot/
+- │   │   ├── common/          # 通用类（Result、WebSocketServer）
+- │   │   ├── config/          # 配置（跨域、拦截器、WebSocket）
+- │   │   ├── controller/      # 控制器
+- │   │   ├── entity/          # 实体类
+- │   │   ├── mapper/          # 数据访问层
+- │   │   ├── service/         # 服务层
+- │   │   ├── utils/           # 工具类
+- │   │   └── exception/       # 异常处理
+- │   └── src/main/resources/application.yml
+- ├── frontend/
+- │   ├── src/
+- │   │   ├── views/           # 页面组件
+- │   │   ├── router/          # 路由配置
+- │   │   ├── store/           # Pinia 状态管理
+- │   │   └── utils/axios.js   # HTTP 封装
+- ├── sql/                     # 数据库脚本
+- ├── files/                   # 上传文件目录
+- └── README.md
